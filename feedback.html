@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/426ae4ef47.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="/img/MyLogo.svg">
+    <link rel="stylesheet" href="/css/zeroing.css">
+    <link rel="stylesheet" href="/css/feedback.css">
+    <title>Feedback</title>
+</head>
+
+<body id="home">
+    <div class="background_photo">
+        <header class="scrollto">
+            <div class="header_container">
+                <div class="header_container_logo"><img src="/img/MyLogo.svg" alt="logo"></div>
+                <ul class="header_list">
+                    <li>
+                        <a href="/index.html" class="header_link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#contacts" class="header_link">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="#home" class="header_link">Feedback</a>
+                    </li>
+                </ul>
+                <div class="header_menu_btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <nav class="header_menu">
+                    <ul class="header_menu_list">
+                        <li>
+                            <a href="/index.html#" class="header_menu_link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#contacts" class="header_menu_link">Contacts</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header_menu_link">Feedback</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="body_container">
+            <div class="application">
+                <div class="application_head">
+                    <h2 id="application_head">Feedback Form</h2>
+                </div>
+                <div class="application_container">
+                    <form id="form_for_send" class="form_body" action="#">
+                        <div class="application_container_flexbox_1">
+                            <div class="form_item">
+                                <label for="formName" class="form_label">Name*</label>
+                                <input id="formName" class="form_input _req" type="text" name="name" placeholder="Name">
+                            </div>
+
+                            <div class="form_item">
+                                <label for="formTheme" class="form_label">Subject</label>
+                                <input id="formTheme" class="form_input _req" type="text" name="formTheme"
+                                    placeholder="Subject">
+                            </div>
+
+                            <div class="form_item">
+                                <label for="formEmail" class="form_label">E-mail*</label>
+                                <input id="formEmail" class="form_input _req _email" type="text" name="email"
+                                    placeholder="E-mail">
+                            </div>
+                        </div>
+                        <div class="application_container_flexbox_2">
+                            <div class="form_item">
+                                <label for="formMessage" class="form_label">Message*</label>
+                                <textarea name="message" class="form_input _req" id="formMessage" cols="30"
+                                    placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="break"></div>
+                        <button class="form_button" type="submit">Send</button>
+                        <br>
+                    </form>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+        <footer id="contacts">
+            <div class="footer_container">
+
+                <div class="footer_spoiler one">
+                    <div class="footer_spoiler_item">
+                        <div class="footer_spoiler_title">
+                            Phone numbers
+                        </div>
+                        <div class="footer_spoiler_text">
+                            <div class="footer_spoiler_link">
+                                <a href="tel:+380990000000">+38 (099) 000-00-00</a>
+                                <a href="tel:+380990000000">+38 (098) 000-00-00</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer_spoiler_item">
+                        <div class="footer_spoiler_title">
+                            Our addresses
+                        </div>
+                        <div class="footer_spoiler_text">
+                            <div class="footer_spoiler_link">
+                                <a href="https://goo.gl/maps/F6zc6QCvNpatGMyK8" target="_blank"
+                                    rel="noopener noreferrer">Adress
+                                    №1</a>
+                                <a href="https://goo.gl/maps/F6zc6QCvNpatGMyK8" target="_blank"
+                                    rel="noopener noreferrer">Adress
+                                    №2</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_container_logo"><img src="/img/MyLogo.svg" alt="logo"></div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="/js/burger.js"></script>
+<script src="/js/spoiler.js"></script>
+<script src="/js/SendMail.js"></script>
+
+</html>
