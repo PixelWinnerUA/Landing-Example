@@ -159,6 +159,7 @@ header:before {
 }
 
 .post_container {
+    max-width: 1600px;
     padding: 20px 0 20px 0;
 }
 
@@ -181,7 +182,7 @@ header:before {
 .post_without_text {
     display: flex;
     flex-wrap: wrap;
-    width: fit-content;
+    width: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;
