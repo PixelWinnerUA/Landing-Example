@@ -355,7 +355,7 @@ footer {
 }
 .break {
     flex-basis: 100%;
-    height: 0px;
+    height: 0;
 }
 @media (max-width: 895px) {
     .header_list {
