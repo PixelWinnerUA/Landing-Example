@@ -3,7 +3,7 @@ body {
     background: #121212;
 }
 .background_photo {
-    background-image: url(/img/leaves_texture.png);
+    background-image: url(https://pixelwinnerua.github.io/Portfolio-Site-1/img/leaves_texture.png);
     background-attachment: fixed;
     height: 100%;
     min-height: 100%;
