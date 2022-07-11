@@ -21,19 +21,15 @@ document.addEventListener('DOMContentLoaded', function () {
             });
 
             if (response.ok) {
-                //Проблемный код
                 let result = await response.json();
                 alert(result.message);
                 formData.innerHTML = '';
-                //Проблемный код
                 form.reset();
                 form.classList.remove('_sending');
-                console.log('sendmail.php ok');
             }
             else {
-                alert('Ошибка');
+                alert('Ошибка. Это пример сайта, для сохранения конфиденциальных данныхб отправка сообщений отключена!');
                 form.classList.remove('_sending');
-                console.log('sendmail.php bad');
             }
         } else {
             alert('Заполните необходимые поля');
@@ -50,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
             formRemoveError(input);
 
             if (input.classList.contains('_email')) {
-                if (emailTest(input) == false) {
+                if (emailTest(input) === false) {
                     formAddError(input);
                     error++;
                 }
