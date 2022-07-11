@@ -11,14 +11,14 @@ $mail->SMTPAuth = true;
 $mail->SMTPSecure = "tls";
 $mail->Host = "smtp.gmail.com";
 $mail->Port = "587";
-$mail->Username = "sasha.h.l2018@gmail.com";
-$mail->Password = "aerwfgujyqmysyrh";
+$mail->Username = "";
+$mail->Password = "";
 
 $mail->IsHTML(true);
 $mail->CharSet = 'UTF-8';
 $mail->setLanguage('ru', 'PHPMailer/language/');
-$mail->setFrom('sasha.h.l2018@gmail.com', 'Alexander');
-$mail->addAddress('pixelgun3d2014@gmail.com');
+$mail->setFrom('', 'Alexander');
+$mail->addAddress('');
 
 
 $mail->Subject = 'Обратная связь';
